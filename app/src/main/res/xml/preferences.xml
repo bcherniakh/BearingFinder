@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_category_use_beacon"
+        android:key="pref_key_use_beacons_settings">
+
+    <CheckBoxPreference
+        android:key="pref_use_beacon_1"
+        android:title="@string/pref_key_use_beacon_1_title"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_use_beacon_2"
+        android:title="@string/pref_key_use_beacon_2_title"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_use_beacon_3"
+        android:title="@string/pref_key_use_beacon_3_title"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_use_beacon_4"
+        android:title="@string/pref_key_use_beacon_4_title"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_use_beacon_5"
+        android:title="@string/pref_key_use_beacon_5_title"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_use_beacon_6"
+        android:title="@string/pref_key_use_beacon_6_title"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_use_beacon_7"
+        android:title="@string/pref_key_use_beacon_7_title"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_use_beacon_8"
+        android:title="@string/pref_key_use_beacon_8_title"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_use_beacon_9"
+        android:title="@string/pref_key_use_beacon_9_title"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_use_beacon_10"
+        android:title="@string/pref_key_use_beacon_10_title"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_use_beacon_11"
+        android:title="@string/pref_key_use_beacon_11_title"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_use_beacon_12"
+        android:title="@string/pref_key_use_beacon_12_title"
+        android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_resource_names"
+        android:key="pref_key_resource_names_settings">
+        <PreferenceScreen
+            android:key="pref_key_button_beacon_names"
+            android:title="@string/pref_beacon_names_screen_title"
+            android:persistent="false">
+
+            <EditTextPreference
+                android:key="pref_key_beacon_address_1"
+                android:title="@string/pref_beacon_name_1"
+                android:summary="@string/pref_resources_summary_hex"
+                android:defaultValue="1"
+                android:inputType="text"/>
+            <EditTextPreference
+                android:key="pref_key_beacon_address_2"
+                android:title="@string/pref_beacon_name_2"
+                android:summary="@string/pref_resources_summary_hex"
+                android:defaultValue="2"
+                android:inputType="text"/>
+            <EditTextPreference
+                android:key="pref_key_beacon_address_3"
+                android:title="@string/pref_beacon_name_3"
+                android:summary="@string/pref_resources_summary_hex"
+                android:defaultValue="3"
+                android:inputType="text"/>
+            <EditTextPreference
+                android:key="pref_key_beacon_address_4"
+                android:title="@string/pref_beacon_name_4"
+                android:summary="@string/pref_resources_summary_hex"
+                android:defaultValue="4"
+                android:inputType="text"/>
+            <EditTextPreference
+                android:key="pref_key_beacon_address_5"
+                android:title="@string/pref_beacon_name_5"
+                android:summary="@string/pref_resources_summary_hex"
+                android:defaultValue="5"
+                android:inputType="text"/>
+            <EditTextPreference
+                android:key="pref_key_beacon_address_6"
+                android:title="@string/pref_beacon_name_6"
+                android:summary="@string/pref_resources_summary_hex"
+                android:defaultValue="6"
+                android:inputType="text"/>
+            <EditTextPreference
+                android:key="pref_key_beacon_address_7"
+                android:title="@string/pref_beacon_name_7"
+                android:summary="@string/pref_resources_summary_hex"
+                android:defaultValue="7"
+                android:inputType="text"/>
+            <EditTextPreference
+                android:key="pref_key_beacon_address_8"
+                android:title="@string/pref_beacon_name_8"
+                android:summary="@string/pref_resources_summary_hex"
+                android:defaultValue="8"
+                android:inputType="text"/>
+            <EditTextPreference
+                android:key="pref_key_beacon_address_9"
+                android:title="@string/pref_beacon_name_9"
+                android:summary="@string/pref_resources_summary_hex"
+                android:defaultValue="9"
+                android:inputType="text"/>
+            <EditTextPreference
+                android:key="pref_key_beacon_address_10"
+                android:title="@string/pref_beacon_name_10"
+                android:summary="@string/pref_resources_summary_hex"
+                android:defaultValue="A"
+                android:inputType="text"/>
+            <EditTextPreference
+                android:key="pref_key_beacon_address_11"
+                android:title="@string/pref_beacon_name_11"
+                android:summary="@string/pref_resources_summary_hex"
+                android:defaultValue="B"
+                android:inputType="text"/>
+            <EditTextPreference
+                android:key="pref_key_beacon_address_12"
+                android:title="@string/pref_beacon_name_12"
+                android:summary="@string/pref_resources_summary_hex"
+                android:defaultValue="C"
+                android:inputType="text"/>
+
+        </PreferenceScreen>
+
+        <EditTextPreference
+            android:key="pref_key_delimiter_name"
+            android:title="@string/pref_delimiter_address"
+            android:summary="@string/pref_resources_summary_hex"
+            android:defaultValue="1F"
+            android:inputType="text"/>
+
+        <EditTextPreference
+            android:key="pref_key_bearing_finder_address"
+            android:title="@string/pref_bearing_finder_address"
+            android:summary="@string/pref_resources_summary_hex"
+            android:defaultValue="10"
+            android:inputType="text"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        style="@style/ActionBarText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_bar_chart_status_title"
+        android:id="@+id/actionBarStatusTitleTextView" />
+
+    <TextView
+        style="@style/ActionBarText"
+        android:textColor="@color/colorDisconnected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/actionBarStatusTitleTextView"
+        android:layout_alignBaseline="@+id/actionBarStatusTitleTextView"
+        android:text="@string/action_bar_chart_status_value_disconnected"
+        android:id="@+id/actionBarStatusValueTextView"
+        android:layout_marginLeft="5dp" />
+
+    <Switch
+        style="@style/ActionBarText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_bar_chart_autoscaling_switch_title"
+        android:id="@+id/actionBarAutoscalingSwitch"
+        android:layout_toRightOf="@id/actionBarStatusValueTextView"
+        android:layout_alignBaseline="@+id/actionBarStatusTitleTextView"
+        android:textOn="@string/action_bar_chart_autoscaling_switch_on"
+        android:textOff="@string/action_bar_chart_autoscaling_switch_off"
+        android:layout_marginLeft="5dp" />
+</RelativeLayout>

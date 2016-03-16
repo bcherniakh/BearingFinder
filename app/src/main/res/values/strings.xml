@@ -1,0 +1,71 @@
+<resources>
+    <!--Common string resources-->
+    <string name="common_application_name">Bearing finder</string>
+    <string name="common_message_no_bluetooth">Bluetooth is unavailable</string>
+
+    <!-- Main activity -->
+    <string name="main_text_view_main">Paired bluetooth devices:</string>
+    <string name="main_message_bt_ok">Bluetooth connected</string>
+    <string name="main_message_bt_cancelled">Bluetooth connection failed</string>
+    <string name="main_message_bt_shut_down">Bluetooth suddenly shut down</string>
+    <string name="main_button_start_chart">Open Bluetooth settings</string>
+
+
+    <!-- Bar chart activity resources -->
+    <string name="chart_data_message_no_device">Failed to find the paired device</string>
+    <string name="chart_data_message_error_invalid_bearing_address">Invalid bearing finder address. Check settings</string>
+    <string name="chart_data_message_error_invalid_delimiter">Invalid delimiter. Check settings</string>
+    <string name="chart_data_message_error_bluetooth_connection_failed">Bluetooth connection failed\ntry reconnecting</string>
+
+    <!-- Chart toolbar -->
+    <string name="action_bar_chart_status_title">Status:</string>
+    <string name="action_bar_chart_status_value_disconnected">disconnected</string>
+    <string name="action_bar_chart_status_value_connected">connected</string>
+    <string name="action_bar_chart_autoscaling_switch_title">Autoscaling:</string>
+    <string name="action_bar_chart_autoscaling_switch_on">On</string>
+    <string name="action_bar_chart_autoscaling_switch_off">Off</string>
+
+    <!-- Menus resources -->
+    <string name="menu_main_action_settings">Settings</string>
+    <string name="menu_main_action_exit">Exit</string>
+    <string name="menu_bar_chart_action_refresh_chart">Refresh</string>
+    <string name="menu_bar_chart_action_reconnect">Reconnect</string>
+    <string name="menu_bar_chart_action_settings">Settings</string>
+    <string name="menu_bar_chart_action_exit">Exit</string>
+
+
+    <!-- Preferences resources -->
+    <string name="pref_category_use_beacon">Tracked beacons</string>
+    <string name="pref_key_use_beacon_1_title">Track beacon 01</string>
+    <string name="pref_key_use_beacon_2_title">Track beacon 02</string>
+    <string name="pref_key_use_beacon_3_title">Track beacon 03</string>
+    <string name="pref_key_use_beacon_4_title">Track beacon 04</string>
+    <string name="pref_key_use_beacon_5_title">Track beacon 05</string>
+    <string name="pref_key_use_beacon_6_title">Track beacon 06</string>
+    <string name="pref_key_use_beacon_7_title">Track beacon 07</string>
+    <string name="pref_key_use_beacon_8_title">Track beacon 08</string>
+    <string name="pref_key_use_beacon_9_title">Track beacon 09</string>
+    <string name="pref_key_use_beacon_10_title">Track beacon 10</string>
+    <string name="pref_key_use_beacon_11_title">Track beacon 11</string>
+    <string name="pref_key_use_beacon_12_title">Track beacon 12</string>
+
+    <string name="pref_category_resource_names">Resource names</string>
+    <string name="pref_resources_summary_hex">is hexadecimal value</string>
+    <string name="pref_beacon_names_screen_title">Beacon addresses</string>
+    <string name="pref_beacon_name_1">Beacon name 01</string>
+    <string name="pref_beacon_name_2">Beacon name 02</string>
+    <string name="pref_beacon_name_3">Beacon name 03</string>
+    <string name="pref_beacon_name_4">Beacon name 04</string>
+    <string name="pref_beacon_name_5">Beacon name 05</string>
+    <string name="pref_beacon_name_6">Beacon name 06</string>
+    <string name="pref_beacon_name_7">Beacon name 07</string>
+    <string name="pref_beacon_name_8">Beacon name 08</string>
+    <string name="pref_beacon_name_9">Beacon name 09</string>
+    <string name="pref_beacon_name_10">Beacon name 10</string>
+    <string name="pref_beacon_name_11">Beacon name 11</string>
+    <string name="pref_beacon_name_12">Beacon name 12</string>
+
+    <string name="pref_delimiter_address">Delimiter address</string>
+    <string name="pref_bearing_finder_address">Bearing finder address</string>
+
+</resources>

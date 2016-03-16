@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.ashram.bearingfinder">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-feature android:name="android.hardware.bluetooth" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/common_application_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="me.ashram.bearingfinder.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="me.ashram.bearingfinder.activity.BarChartDataActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity android:name="me.ashram.bearingfinder.activity.settings.SettingsActivity"></activity>
+    </application>
+
+</manifest>

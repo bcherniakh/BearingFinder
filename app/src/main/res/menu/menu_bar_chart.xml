@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bar_chart_action_refresh"
+        app:showAsAction="always"
+        android:title="@string/menu_bar_chart_action_refresh_chart">
+    </item>
+    <item
+        android:id="@+id/bar_chart_action_settings"
+        app:showAsAction="never"
+        android:title="@string/menu_bar_chart_action_settings">
+    </item>
+    <item
+        android:id="@+id/bar_chart_action_reconnect"
+        app:showAsAction="never"
+        android:title="@string/menu_bar_chart_action_reconnect">
+    </item>
+</menu>
